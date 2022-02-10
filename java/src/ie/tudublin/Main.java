@@ -34,7 +34,6 @@ public class Main
             cat.kill();
         }
         cat.kill();
-
     }
 
     public static void main(String[] args)
