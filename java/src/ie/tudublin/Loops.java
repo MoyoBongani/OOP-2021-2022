@@ -94,8 +94,6 @@ public class Loops extends PApplet {
 					}
 				}
 
-				case 3:
-
 		}
 	}
 }
