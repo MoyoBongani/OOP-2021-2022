@@ -121,7 +121,7 @@ public class Loops extends PApplet {
 			case 4:
 			{
 				background(0);
-				colorMode(RGB);
+				colorMode(HSB);
 				stroke(255);
 				float cx = width / 2;
 				float cy = height / 2;
@@ -136,7 +136,7 @@ public class Loops extends PApplet {
 					float theta2 = map(i, 0, sides, 0, TWO_PI);
 					float x2 = cx + sin(theta2) * radius;
 					float y2 = cy + cos(theta2) * radius;
-					line (x1, y2, x2, y1);
+					line (x1, x2, y1, y2);
 				}
 			}
 		}
