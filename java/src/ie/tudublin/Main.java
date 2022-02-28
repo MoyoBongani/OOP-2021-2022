@@ -1,5 +1,7 @@
 package ie.tudublin;
 
+
+
 public class Main
 {
     public static void helloProcessing()
@@ -52,5 +54,12 @@ public class Main
     public static void main(String[] args)
     {
         arrays();
+<<<<<<< HEAD
+=======
+
+        // Tara Misty
+        // Tara Tara
+        
+>>>>>>> 6430c808253d3febb826a8bde84fb35d630aa31c
     }
 }
