@@ -8,9 +8,10 @@ public class Life extends PApplet {
 
 
 	public void settings() {
-		size(500, 500);
-		board = new LifeBoard(100, this);
+		size(1000, 1000);
+		board = new LifeBoard(250, this);
 		board.randomise();
+		println(board.countCellsAround(1, 1));
 	}
 
 	public void setup() {
@@ -22,5 +23,6 @@ public class Life extends PApplet {
 	public void draw() {
 		background(0);
 		board.render();
+		board.update();
 	}
 }
